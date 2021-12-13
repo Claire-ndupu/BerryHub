@@ -1,0 +1,147 @@
+/**{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
+.indexbody{
+  background-image: url("../images/6.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: white ;
+  height: 100%;
+  width: 100vw;
+}
+
+div.cardbox {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.cardheader {
+  background-color: #4CAF50;
+  /*padding: 10px;*/
+  font-size: 40px;
+  height: 15vw;
+  transition: transform 2s;
+}
+.cardheader>h1{
+  color: white;
+  font-size: 1em;
+}
+.cardheader:hover{
+  transform: rotate(360deg);
+}
+
+div.cardcontainer {
+  padding: 10px;
+}
+.row{
+  margin-top: 20px!important;
+}
+.purple{
+  background-color: #3D315B;
+}
+.beige{
+  background-color: #F8F991;
+
+}
+.beige>h1>a{
+  color: black;
+}
+.green{
+  background-color: #4CAF50;
+}
+h1 a{
+  text-decoration: none;
+  color: white;
+}
+h1 a:hover{
+  text-decoration: none!important;
+  color: white;
+}
+.berry{
+  font-size: 2.5em;
+}
+.date{
+  font-size:0.3em;
+  position: absolute; 
+  bottom: 2px; 
+  margin: 0 auto; 
+  left: 0; 
+  right: 0;
+}
+
+
+@media (min-width:  0px)and (max-width: 576px){
+  body{
+    height: auto; 
+  }
+
+  h1 a{
+    font-size: 0.6em;
+  }
+  .cardheader{
+    margin-top: 20px!important;
+    height: 30vw;
+  }
+  .berry{
+    font-size: 2em;
+  }
+  .date{
+    font-size:0.3em;
+  }
+
+
+}
+@media (min-width: 577px)and (max-width: 768px){
+  body{
+    height: auto; 
+  }
+
+  h1 a{
+    font-size: 0.7em;
+  }
+  .cardheader{
+    margin-top: 20px!important;
+    height:35vw;
+  }
+  .berry{
+    font-size: 2em;
+  }
+
+}
+@media (min-width:  769px)and (max-width: 992px){
+
+  h1 a{
+    font-size: 0.8em;
+  }
+  .cardheader{
+    margin-top: 20px!important;
+    height: 35vw;
+  }
+
+  .berry{
+    font-size: 2em;
+  }
+  .navbar-brand{
+    margin-right: 0px!important;
+  }
+  
+}
+
+@media (min-width: 993px){
+  
+  .cardheader{
+    margin-top: 20px!important;
+    height: 30vh;
+  }
+  h1 a{
+    font-size: 0.8em;
+  }
+
+}

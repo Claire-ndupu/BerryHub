@@ -1,0 +1,181 @@
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 50px!important;
+}
+.active{
+	text-transform: uppercase;
+}
+.active:hover{
+	color: black!important;
+}
+a{
+	color: black;
+}
+a:hover{
+	color: black!important;
+	text-decoration: underline;
+}
+body{
+	margin: 0px;
+	padding: 10px;
+	height: 100vh;
+	position: relative;
+
+	background-image: url("../images/1.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	background-color:#4C6C57 ;
+}
+#berry{
+	position: relative;
+	height: 2em;
+	font-family: Oleo Script,cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5em;
+	line-height: 80px;
+	color: #511E1E;
+	padding: 3%;
+	padding-left: 5%;
+
+}
+#berrytext{
+	position: relative;
+	height: 3em;
+	width: 50%;
+	font-family: Oleo Script,cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 80px;
+	padding: 2%;
+	color: #000000;
+	padding-left: 6%;
+
+}
+.pinkcircle {
+	background-color: #FDAFAF;
+	color: black;
+	font-family: Oleo Script,cursive;
+	height: 6em;
+	width: 20%;
+	text-align: center;
+	
+	padding-top: 10px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 80px;
+	margin-left: 50%;
+
+	color: #000000;
+	border-radius: 50%;
+}
+.pinklink{
+	font-size: 2em;
+	color: black;
+
+}
+.berrycomment{
+	
+	position: relative;
+	font-size: 1.7em;
+	padding-left: 50%;
+}
+.indexbody{
+	background-image: url("../images/1.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-color: white ;
+	height: 100%;
+}
+
+
+
+@media (min-width:  0px)and (max-width: 425px){
+	body{
+		height: auto; 
+	}
+
+	.pinkcircle{
+
+    	width: 50%;
+    	
+	}
+	.pinklink{
+		font-size: 1.2em;
+		color: black;
+		line-height: 1em;
+	}
+	#berry{
+		font-size: 3em;
+		
+	}
+	#berrytext{
+		font-size: 2em;
+		
+		line-height: 50px;
+	}
+	.berrycomment{
+		
+		position: relative;
+		font-size: 1.7em;
+	}
+
+}
+@media (min-width:  426px)and (max-width: 768px){
+	/*body{
+		height: auto; 
+	}
+*/
+	.pinklink{
+		font-size: 1.8em;
+		color: black;
+		line-height: 1em;
+	}
+	#berry{
+		font-size: 4em;
+		
+	}
+	#berrytext{
+		font-size: 2em;
+	}
+	.pinkcircle{
+
+    	width: 50%;
+	}
+	.berrycomment{
+		
+		position: relative;
+		font-size: 1.7em;
+	}
+
+}
+@media (min-width:  769px)and (max-width: 1024px){
+	.pinklink{
+		font-size: 1.5em;
+		color: black;
+
+	}
+	.berrycomment{
+
+		padding-left: 50%;
+	}
+	.pinkcircle{
+    	width: 40%;
+	}
+
+}
+
+@media (min-width:  1025px){
+	.pinkcircle{
+    	width: 30%;
+	}
+	.berrycomment{
+		margin-top: 10px;
+	}
+}

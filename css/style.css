@@ -1,0 +1,129 @@
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+body{
+	margin: 0px;
+	background-color: #4C6C57;
+}
+#berry{
+	position: absolute;
+	height: 2em;
+	font-family: Oleo Script,cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5em;
+	line-height: 80px;
+	top: 25%;
+	left: 15%;
+	color: #511E1E;
+
+}
+#berrytext{
+	position: absolute;
+	height: 2em;
+	width: 50%;
+	font-family: Oleo Script,cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 80px;
+	top: 40%;
+	left: 18%;
+	color: #000000;
+
+}
+.pinkcircle {
+	background-color: #FDAFAF;
+	color: black;
+	font-family: Oleo Script,cursive;
+	height: 6em;
+	width: 20%;
+	text-align: center;
+	
+	position: absolute;
+	padding-top: 10px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 80px;
+	top: 70%;
+	left: 60%;
+	color: #000000;
+	border-radius: 50%;
+}
+.pinklink{
+	font-size: 2em;
+	color: black;
+}
+.berrycomment{
+	top: 85%;
+	left: 15%;
+	position: absolute;
+	font-size: 1.7em;
+}
+
+.indexbody{
+	background-image: url("../images/1.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-color: white ;
+	height: 100%;
+	width: 100vw;
+}
+
+
+@media (min-width:  0px)and (max-width: 425px){
+	
+	.berry{
+		font-size: 2em;
+	}
+	.homecontent{
+		font-size: 1em;
+		
+	}
+	
+	.pinklink{
+		width: 60%;
+		padding: 0px;
+		margin: 0 auto;
+		display: block;
+
+	}
+	body{
+		height: auto; 
+	}
+
+
+}
+@media (min-width:  426px)and (max-width: 768px){
+	
+	.berry{
+		font-size: 2em;
+	}
+	.homecontent{
+		font-size: 1.2em;
+		
+	}
+	
+	body{
+		height: auto; 
+	}
+
+
+
+}
+@media (min-width:  769px)and (max-width: 1024px){
+	
+
+
+}
+
+@media (min-width:  1025px){
+	
+
+
+}
+
