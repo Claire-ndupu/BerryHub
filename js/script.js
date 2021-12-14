@@ -58,7 +58,7 @@ function addDataToDOM(data) {
 
 		
 		<h2 class="title">${data.line.joke}</h2>
-		<br>
+		<br><br><br><br><br>
 
 
 	`;
